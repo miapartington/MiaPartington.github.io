@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Emergency</title>
+    <link rel="icon" href="/Images/logo.jpg" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="emerg.css" type="text/css">
+    <script src="emerg.js" defer></script>
+  </head>
+
+
+<body>
+  <!-- Section for the top bar -->
+  <div class="top-bar">
+    <div class="info">
+        <div class="left-info">
+          <i class="bi bi-geo-alt-fill"></i>
+        <span class="location">1234 Main St, Kanata, Ottawa</span>
+        </div>
+        <div class="right-info">
+            <i class="bi bi-clock"></i>
+            <span class="times">Mon-Fri: 9am - 5pm</span>
+            <i class="bi bi-telephone"></i>
+            <span class="phone">Call us: (613) 111-1111</span>
+        </div>
+    </div>
+  </div>
+
+<!-- Nav bar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-xxl">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="Experts.html">Experts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Appt.html">
+              Appointments
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="emerg.html">Emergency</a>
+          </li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+  </nav>
+
+  <!-- Emerg info -->
+  <div class="emergency-contact-banner">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="text-content">
+        <h1>
+          <div class="display-4 font-weight-bold">Emergency Services</div>
+          <div class="separator"></div>
+        </h1>
+        <p class="lead my-4 text-muted text-center">Available 24/7</p>
+        <div class="butts">
+          <button type="button" class="btn btn-secondary btn-lg" id="callNowBtn">Call Now</button>
+          <button type="button" class="btn btn-secondary btn-lg" data-bs-toggle="modal" id="bookNowBtn">Book now</button>
+        </div>
+        <div class="image-content text-right">
+            <img class="img-fluid" src="/Images/EmergImg.webp" alt="Emergency Services Image">
+          </div>
+      </div>
+    </div>
+  </div>
+
+<!-- other clinics -->
+<div class="emergency-section container my-5">
+  <h2 class="display-4 text-center mb-4">Other Clinics Offering Emergency Services</h2>
+  <div class="row">
+      <div class="col-md-4">
+          <div class="vet-clinic-card">
+              <h5>Orleans Veterinary Clinic</h5>
+              <p><strong>Phone:</strong> 613-222-2222</p>
+              <p><strong>Address:</strong> 000 Silver Street, Orleans</p>
+              <p><strong>Hours:</strong> 24/7</p>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="vet-clinic-card">
+              <h5>Stittsville Veterinary Clinic</h5>
+              <p><strong>Phone:</strong> 613-333-3333</p>
+              <p><strong>Address:</strong> 456 Elm Street, Stittsville</p>
+              <p><strong>Hours:</strong> 24/7</p>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="vet-clinic-card">
+              <h5>Nepean Veterinary Clinic</h5>
+              <p><strong>Phone:</strong> 613-444-4444</p>
+              <p><strong>Address:</strong> 789 Oak Street, Nepean</p>
+              <p><strong>Hours:</strong> 24/7</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- Common Emergencies -->
+
+  <h2 class="display-4 text-center mb-4">Common emergencies</h2>
+  <div class="container my-5">
+      <div class="row">
+          <div class="col-md-4">
+              <div class="emergency-card">
+                  <i class="bi bi-capsule"></i>
+                  <h5>Ingestion of toxic substances</h5>
+                  <p class="text-muted">Pets can consume harmful substances like chemicals or toxic plants. Immediate medical attention is essential to prevent severe health issues.</p>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="emergency-card">
+                  <i class="bi bi-fire"></i>
+                  <h5>Burns</h5>
+                  <p class="text-muted">Burns can occur from heat sources, chemicals, or electrical hazards. Prompt treatment is necessary to alleviate pain and prevent infection.</p>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="emergency-card">
+                  <i class="bi bi-bandaid"></i>
+                  <h5>Fractures</h5>
+                  <p class="text-muted">Fractures can result from falls, accidents, or trauma. Quick medical intervention is essential to properly align and heal broken bones.</p>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="emergency-card">
+                <i class="bi bi-clipboard2-pulse"></i>
+                  <h5>Severe bleeding</h5>
+                  <p class="text-muted">Severe bleeding can be life-threatening and often results from injuries or accidents. Immediate veterinary care is vital to control the bleeding and treat the wound.</p>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="emergency-card">
+                  <i class="bi bi-exclamation-triangle-fill"></i>
+                  <h5>Choking</h5>
+                  <p class="text-muted">Choking occurs when a pet swallows something that blocks the airway. Quick action and veterinary help are needed to remove the obstruction.</p>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="emergency-card">
+                  <i class="bi bi-droplet"></i>
+                  <h5>Dehydration</h5>
+                  <p class="text-muted">Dehydration can result from illness, heatstroke, or insufficient water intake. It's important to rehydrate your pet promptly and address the underlying cause.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</body>
+
+<!-- Footer -->
+  <footer>
+    <div class="footer">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <p>
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a> |
+            <a href="#">Contact Us</a>
+        </p>
+    </div>
+</footer>
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
